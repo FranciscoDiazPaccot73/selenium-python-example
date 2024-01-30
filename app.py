@@ -28,7 +28,7 @@ class TestRoute(Resource):
     startTime = time.time()
     Utils.logger_warning(f"starting execution: {startTime}")
     try:
-      url = 'https://www.franciscodiazpaccot.dev/blog/dealing-with-large-files/'
+      url = 'https://www.franciscodiazpaccot.dev/blog/en/python-selenium-example'
       chrome_options = webdriver.ChromeOptions()
       chrome_options.add_argument('--no-sandbox')
       chrome_options.add_argument('--headless=new')
